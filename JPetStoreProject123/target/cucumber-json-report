@@ -1,0 +1,454 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Check that JPetStore Application LoginPage is displayed",
+        "description": "",
+        "id": "jpetstore-application-page;check-that-jpetstore-application-loginpage-is-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18531761559,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the Chrome browser",
+            "match": {
+              "location": "JPetLoginStep.launch_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 240421,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login JPetStore Page opened",
+            "match": {
+              "location": "JPetLoginStep.login_JPetStore_Page_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2641858129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username as \"Reddy2407\" and password as\"santhu2407\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reddy2407",
+                  "offset": 19
+                },
+                {
+                  "val": "santhu2407",
+                  "offset": 46
+                }
+              ],
+              "location": "JPetLoginStep.enter_username_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15136419710,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicks the Login button",
+            "match": {
+              "location": "JPetLoginStep.clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_LoginPage"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Check that JPetStore Application ReptilePage is displayed",
+        "description": "",
+        "id": "jpetstore-application-page;check-that-jpetstore-application-reptilepage-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12250069817,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Launch the Chrome browser",
+            "match": {
+              "location": "JPetLoginStep.launch_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12617834381,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Reptiles JPetStore Page opened",
+            "match": {
+              "location": "JPetReptilesStep.reptiles_JPetStore_Page_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4677875062,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click The Reptile Image",
+            "match": {
+              "location": "JPetReptilesStep.click_The_Reptile_Image()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3945011820,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click The ProductID of Reptile",
+            "match": {
+              "location": "JPetReptilesStep.click_The_ProductID_of_Reptile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5030273222,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click The ItemId of Reptile",
+            "match": {
+              "location": "JPetReptilesStep.click_The_ItemId_of_Reptile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5287965403,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click The AddToCart of Reptile",
+            "match": {
+              "location": "JPetReptilesStep.click_The_AddToCart_of_Reptile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7935696249,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click The ProceedToCheckOut of Reptile",
+            "match": {
+              "location": "JPetReptilesStep.click_The_ProceedToCheckOut_of_Reptile()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@tc_02_ReptilesPage"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Check that JPetStore Application FishPage is displayed",
+        "description": "",
+        "id": "jpetstore-application-page;check-that-jpetstore-application-fishpage-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12202122740,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Launch the Chrome browser",
+            "match": {
+              "location": "JPetLoginStep.launch_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12242042110,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Fish JPetStore Page opened",
+            "match": {
+              "location": "JPetFishStep.fish_JPetStore_Page_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4268080849,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click The Fish Image",
+            "match": {
+              "location": "JPetFishStep.click_The_Fish_Image()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3418659728,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click The ProductID of Fish",
+            "match": {
+              "location": "JPetFishStep.click_The_ProductID_of_Fish()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4853786077,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click The ItemId of Fish",
+            "match": {
+              "location": "JPetFishStep.click_The_ItemId_of_Fish()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5062591486,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click The AddToCart for Fish",
+            "match": {
+              "location": "JPetFishStep.click_The_AddToCart_for_Fish()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7303340602,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click The ProceedToCheckOut for Fish",
+            "match": {
+              "location": "JPetFishStep.click_The_ProceedToCheckOut_for_Fish()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@tc_03_FishPage"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Check that JPetStore Application DogPage is displayed",
+        "description": "",
+        "id": "jpetstore-application-page;check-that-jpetstore-application-dogpage-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12351475326,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Launch the Chrome browser",
+            "match": {
+              "location": "JPetLoginStep.launch_the_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9901898078,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Dog JPetStore Page opened",
+            "match": {
+              "location": "JPetDogStep.dog_JPetStore_Page_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3930159976,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click The Dog Image",
+            "match": {
+              "location": "JPetDogStep.click_The_Dog_Image()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4157208774,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click The ProductID of Dog",
+            "match": {
+              "location": "JPetDogStep.click_The_ProductID_of_Dog()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4567867916,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click The ItemId of Dog",
+            "match": {
+              "location": "JPetDogStep.click_The_ItemId_of_Dog()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3725558264,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click The AddToCart for Dog",
+            "match": {
+              "location": "JPetDogStep.click_The_AddToCart_for_Dog()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7759338110,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click The ProceedToCheckOut for Dog",
+            "match": {
+              "location": "JPetDogStep.click_The_ProceedToCheckOut_for_Dog()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@tc_04_DogPage"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Check that user can sign in into JPetStore page",
+        "description": "",
+        "id": "jpetstore-application-page;check-that-user-can-sign-in-into-jpetstore-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12525778161,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "JPetStore page is opened",
+            "match": {
+              "location": "JPetEXcelReadStep.jpetstore_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6578585,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Login page is opened",
+            "match": {
+              "location": "JPetEXcelReadStep.login_page_is_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12955613055,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The \u003cemail\u003e and \u003cpassword\u003e details are given",
+            "match": {
+              "location": "JPetEXcelReadStep.the_email_and_password_details_are_given()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3330508146,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "login and quit",
+            "match": {
+              "location": "JPetEXcelReadStep.login_and_quit()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@tc_05_ExcelReadPage"
+          }
+        ]
+      }
+    ],
+    "name": "JPetStore Application Page",
+    "description": "This feature verifies the functionality on JPetStore Application",
+    "id": "jpetstore-application-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/JPetFeatures/JPet.feature"
+  }
+]

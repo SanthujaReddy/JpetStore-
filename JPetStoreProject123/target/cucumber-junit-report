@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="212.617614">
+<testcase classname="JPetStore Application Page" name="Check that JPetStore Application LoginPage is displayed" time="36.31028">
+<system-out><![CDATA[Given Launch the Chrome browser.............................................passed
+When Login JPetStore Page opened............................................passed
+Then Enter username as "Reddy2407" and password as"santhu2407"..............passed
+And Clicks the Login button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JPetStore Application Page" name="Check that JPetStore Application ReptilePage is displayed" time="51.744726">
+<system-out><![CDATA[Given Launch the Chrome browser.............................................passed
+When Reptiles JPetStore Page opened.........................................passed
+Then Click The Reptile Image................................................passed
+Then Click The ProductID of Reptile.........................................passed
+Then Click The ItemId of Reptile............................................passed
+Then Click The AddToCart of Reptile.........................................passed
+And Click The ProceedToCheckOut of Reptile..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JPetStore Application Page" name="Check that JPetStore Application FishPage is displayed" time="49.350624">
+<system-out><![CDATA[Given Launch the Chrome browser.............................................passed
+When Fish JPetStore Page opened.............................................passed
+Then Click The Fish Image...................................................passed
+Then Click The ProductID of Fish............................................passed
+Then Click The ItemId of Fish...............................................passed
+Then Click The AddToCart for Fish...........................................passed
+And Click The ProceedToCheckOut for Fish....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JPetStore Application Page" name="Check that JPetStore Application DogPage is displayed" time="46.393506">
+<system-out><![CDATA[Given Launch the Chrome browser.............................................passed
+When Dog JPetStore Page opened..............................................passed
+Then Click The Dog Image....................................................passed
+Then Click The ProductID of Dog.............................................passed
+Then Click The ItemId of Dog................................................passed
+Then Click The AddToCart for Dog............................................passed
+And Click The ProceedToCheckOut for Dog.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="JPetStore Application Page" name="Check that user can sign in into JPetStore page" time="28.818478">
+<system-out><![CDATA[Given JPetStore page is opened..............................................passed
+Then Login page is opened...................................................passed
+Then The <email> and <password> details are given...........................passed
+And login and quit..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
